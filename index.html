@@ -10,6 +10,28 @@
 </head>
 
 <body>
+    <form>
+         <fieldset>
+            <legend>Madlib</legend>
+            <label>Make
+                <input type="text" id="make" class="input" placeholder="Favorite vehicle Make?" required/>
+            </label>
+            <label>
+                Model
+                <input type="text" id="model" class="input" placeholder="Favorite vehicle Model?"/>
+            </label>
+            <label>City
+                <input type="text" id="city" class="input" placeholder="City you want to visit?" required/>
+            </label>
+            <label>
+                Number
+                <input type="text" id="number" class="input" placeholder="Random number."/>
+            </label>
+            <button type="button" id="submitButton">Submit</button>
+        </fieldset>
+    </form>
+
+    <p>I drove my favorite car, a <span id="makeAnswer" class="placeholder">______</span> <span id="modelAnswer" class="placeholder">______</span> through downtown <span id="cityAnswer" class="placeholder">______</span>. While there, I hit a ramp and jumped over <span id="numberAnswer" class="placeholder">______</span> busses.</span></p>
 
 </body>
 <script src="js/index.js"></script>
